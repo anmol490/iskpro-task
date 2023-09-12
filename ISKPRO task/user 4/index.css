@@ -1,0 +1,140 @@
+*{
+    /* background-color: rgb(155, 153, 153); */
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: grey;
+    width: 90%;
+}
+
+/* nav part  */
+.topnav{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    /* width: 80%; */
+    margin-left: 30%;
+   
+}
+.topnav a{
+    background-color: black;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    border: 1px solid white;
+}
+
+
+
+/* side article */
+
+.sidenav{
+    position: fixed;
+    height: 100%;
+    width: 25%;
+    top: 0;
+    /* left: ; */
+    z-index: 1;
+    padding-top: 30px;
+
+}
+.side-list{
+   
+    background-color: black;
+    margin: 40px;
+    padding: 30px;
+    color: aliceblue;
+   list-style-type: none;
+   border-radius: 20px;
+}
+.side-list li{
+    top: 0;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    font-size: 17px;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+}
+.side-list li a{
+    text-decoration: none;
+    color: white;
+}
+.side-list li a:hover{
+    border: 1px solid white;
+}
+
+
+
+/* main section */
+.main{
+    margin-left: 30%;
+    padding: 4px 10px;
+    display: inline-block;
+    width: 70%;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.main h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.main p{
+    padding: 20px;
+    /* line-height: 5px; */
+font-size: 20px;
+align-items: center;
+    line-height: 1.5;
+}
+
+
+
+
+/* main list part */
+
+.part-1{
+    margin-left: 30px;
+    float: left;
+    width: 34%;
+    padding: 11px;
+    /* display: inline-block; */
+
+}
+.part-1 li{
+    padding: 10px;
+}
+.part-2{
+    float: left;
+    width: 34%;
+    padding: 11px;
+    /* display: inline-block; */
+
+}
+.part-2 li{
+    padding: 10px;
+}
+.part-3 li{
+    padding: 10px;
+    color: red;
+}
+
+/* images part */
+
+.row-images{
+margin-top: 40px ;
+}
+
+.column-img{
+    margin-left: 50px;
+    float: left;
+    width: 25%;
+    padding:5px;
+}
